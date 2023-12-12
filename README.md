@@ -1,6 +1,6 @@
 # ATM
 ## ATM implementation using Python
-Implementation of basic ATM functionalites like 
+Implementation of basic ATM functionalities like: 
 - CASH WITHDRAWAL
 - FUND TRANSFER
 - CASH DEPOSIT
