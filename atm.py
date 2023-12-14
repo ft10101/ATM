@@ -1,10 +1,10 @@
 print("\nWelcome to ATM\n")
-PIN = 1211
-print("Your ATM Pin is:", PIN)
+atm_pin = '1211'
+print("Your ATM Pin is:", atm_pin)
 balance = 1000
 print("\n\nEnter the 4 digit pin: ")
 pin = input()
-if pin == PIN:
+if pin == atm_pin:
     print("\nThank you for banking with us!\n")
     print("\nYour current balance is: ", balance,"\n")
     while True:
@@ -14,7 +14,7 @@ if pin == PIN:
         print("3 - CASH DEPOSIT\n")
         print("4 - BALANCE INQUIRY\n")
         print("5 - EXIT\n")
-        x = int(input())  
+        x = int(input())
         if x == 1:
             print("Enter the amount you want to withdraw:")
             withdraw_amount = int(input())
